@@ -9,9 +9,16 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      "sm" : "640px",
+          // => @media (min-width: 640px) { ... }
+      "md" : "768px",
+      "lg" : "1024px",
+      "xl" : "1280px"
+    },
     extend: {
       colors: {
-        "almond": "#D98338",
+        "almond" : "#D98338",
         "honey" : "#F2B13F",
         "milk" : "#FFFACD",
         "dark-honey" : "#ED9945" 
